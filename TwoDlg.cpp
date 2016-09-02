@@ -79,6 +79,8 @@ BOOL CTwoDlg::OnInitDialog()
 
 void CTwoDlg::OnBnClickedInfo()
 {//游戏 说明
-	AfxMessageBox(_T("方向键控制，将箱子推到目标地点吧！"));
+	CString str;
+	str.Format(_T("方向键控制，在5分钟内将箱子推到目标地点吧！\n(倒计时可在设置处关闭)"));
+	AfxMessageBox(str);
 	
 }
