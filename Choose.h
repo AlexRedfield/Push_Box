@@ -19,8 +19,8 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
-//	int m_StageNum;
+
 	afx_msg void OnBnClickedOk();
-//	int m_StageNum;
-	long m_StageNum;
+
+	long m_StageNum;//©ь╪Ч╠Да©
 };
