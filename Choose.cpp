@@ -15,8 +15,6 @@ CChoose::CChoose(CWnd* pParent /*=NULL*/)
 	: CDialogEx(CChoose::IDD, pParent)
 {
 
-	//  m_StageNum = 0;
-	//  m_StageNum = 0;
 	m_StageNum = 0;
 }
 
@@ -27,10 +25,7 @@ CChoose::~CChoose()
 void CChoose::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
-	//  DDX_Text(pDX, IDC_EDIT_NUM, m_StageNum);
-	//  DDV_MinMaxInt(pDX, m_StageNum, 1, 100);
-	//  DDX_Text(pDX, IDC_EDIT_NUM, m_StageNum);
-	//  DDV_MinMaxInt(pDX, m_StageNum, 1, 42);
+	
 	DDX_Text(pDX, IDC_EDIT_NUM, m_StageNum);
 	DDV_MinMaxLong(pDX, m_StageNum, -100, 100);
 }
